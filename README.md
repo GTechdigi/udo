@@ -25,7 +25,7 @@ Udo 数据监控是一款对数据同步,数据生成,数据预测做出监控�
 
 ## 项目构成
 
-前后端分类, 前端采用vue，后端采用python3.9 + flask + APScheduler + sqlalchemy + [Apollo](https://github.com/apolloconfig/apollo) + redis + mysql
+前后端分类, [有度·UDO前端](https://github.com/GTechdigi/udo-web)采用vue，后端采用python3.9 + flask + APScheduler + sqlalchemy + [Apollo](https://github.com/apolloconfig/apollo) + redis + mysql
 
 apollo客户端引用了[apollo-client-python](https://github.com/xhrg-product/apollo-client-python) , 并做了小幅修改,配置文件`default_setting.py`从`Aollo`中读取配置,所有配置都可设置默认值,所以`Apollo`非必需. 
 
